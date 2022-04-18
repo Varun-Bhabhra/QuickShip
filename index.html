@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickShip</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style/output.css">
+    <link rel="stylesheet" href="./style/customStyle.css">
+
+
+    <!-- Google Font FONT LINK [Montserrat] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons [Font Awesome Link] -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="font-montserrat">
+
+    <!-- NAVBAR -->
+    <header class="h-screen bg-bottom bg-fixed">
+        <nav
+            class="bg-zinc-900 fixed w-full z-10 text-zinc-100 px-8 md:px-16 py-4 space-y-6 md:space-y-0 md:flex items-center justify-between">
+            <aside class="md:w-auto flex justify-between">
+                <a href="./index.html">
+                    <i class="fa-solid fa-truck-fast text-3xl" alt="logo"></i> <span
+                        class="text-xl tracking-widest font-bold">QuickShip</span>
+                </a>
+                <i id="bars" class="fa-solid fa-bars my-auto text-2xl"></i>
+            </aside>
+
+            <aside id="nav_links" class="hidden md:block font-medium text-lg md:text-sm lg:text-lg md:space-x-6">
+                <div class="list-none flex flex-col md:flex-row md:gap-6">
+                    <a href="./dashboard.html" class="">
+                        <li
+                            class="py-2 ml-4 md:ml-2 hover:text-orange-500 hover:underline underline-offset-4 transition-colors">
+                            Dashboard</li>
+                    </a>
+
+                    <a href="./contactUs.html" class="">
+                        <button
+                            class="bg-white hover:bg-orange-500 text-secondary hover:text-white w-full px-4 py-2 shadow-md rounded-lg hover:shadow-xl transition-all">Contact
+                            Now</button>
+                    </a>
+                </div>
+            </aside>
+        </nav>
+        <!-- Landing Page  -->
+        <section id="background"
+            class="text-center text-zinc-100 px-6 py-40 md:py-64 w-6/6 lg:w-4/6 mx-auto flex flex-col gap-12">
+            <h1 class="uppercase font-extrabold text-3xl md:text-6xl">
+                We Delivering happiness to you
+            </h1>
+            <p class="text-lg font-medium">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis in
+                quis reprehenderit temporibus quae ullam dolorum voluptatem alias
+                suscipit qui vel architecto quod sequi amet nulla, distinctio, porro
+                facilis
+            </p>
+            <a id="learn_more"
+                class="inline-block w-5/6 md:w-2/6 mx-auto py-4 px-20 text-sm font-medium bg-orange-600 rounded-md hover:scale-105 hover:bg-zinc-900 hover:text-orange-600 transition-all cursor-pointer">
+                Learn More
+            </a>
+        </section>
+    </header>
+
+    <main>
+        <!-- Our Home -->
+        <section id="services_section" class="text-center py-32 w-4/6 lg:4/6 mx-auto">
+            <div class="py-12">
+                <h1 class="uppercase pb-4 font-bold text-3xl md:text-5xl">
+                    Our Services
+                </h1>
+                <p class="font-medium text-sm md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
+                    magni asperiores praesentium iusto nemo eos, enim fugiat labore
+                    aspernatur sit quia? Nobis voluptas maxime modi neque obcaecati
+                    nihil architecto.
+                </p>
+            </div>
+
+            <div class="grid grid-flow-row lg:grid-flow-col grid-rows-1 gap-10 justify-items-center items-center">
+                <a href="">
+                    <figure class=" transition-all ">
+                        <div
+                            class="rounded-md md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden shadow-xl">
+                            <img src="https://images.unsplash.com/photo-1449247666642-264389f5f5b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                                alt="random"
+                                class="inset-0 group-hover:scale-110 group-hover:-rotate-1 transition duration-200 border[4rem] border-red-300" />
+                        </div>
+                        <figcaption class="text-center py-4 font-bold">
+                            Service 1
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="transition-all">
+                        <div
+                            class="rounded-md md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden shadow-xl">
+                            <img src="https://images.unsplash.com/photo-1577702312706-e23ff063064f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="random"
+                                class="inset-0 group-hover:scale-110 group-hover:-rotate-1 transition duration-200 outline border[4rem] border-blue-300" />
+                        </div>
+                        <figcaption class="text-center py-4 font-bold">
+                            Service 2
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="">
+                    <figure class=" transition-all">
+                        <div
+                            class="rounded-md md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden shadow-xl">
+                            <img src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="random"
+                                class="inset-0 group-hover:scale-110 group-hover:-rotate-1 transition duration-200 border[4rem] border-gray-300" />
+                        </div>
+                        <figcaption class="text-center py-4 font-bold">
+                            Service 3
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Explore Community  -->
+        <section
+            class="bg-zinc-900 text-gray-100 font-medium py-20 flex flex-col md:flex-row justify-evenly items-baseline gap-8">
+            <h1 class="text-lg mx-auto">Explore Us</h1>
+            <div class="flex gap-4 items-center mx-auto">
+                <h3 class="px-4 py-3 border-4 border-gray-100 rounded-full">01</h3>
+                <p>Fast Delivery</p>
+            </div>
+            <div class="flex gap-4 items-center mx-auto">
+                <h3 class="px-4 py-3 border-4 border-gray-100 rounded-full">02</h3>
+                <p>Happy Family</p>
+            </div>
+            <div class="flex gap-4 items-center mx-auto">
+                <h3 class="px-4 py-3 border-4 border-gray-100 rounded-full">03</h3>
+                <p>8 Years Served</p>
+            </div>
+        </section>
+
+        <!-- Unique Balance -->
+        <section class="text-center py-32 px-8">
+            <h1 class="uppercase pb-20 font-bold text-3xl md:text-5xl">
+                Arousing Your Assets Safe Package.
+            </h1>
+
+            <article class="lg:grid lg:grid-flow-col grid-col-3 items-center">
+                <div class="col-span-1 lg:translate-x-20 md:w-4/6">
+                    <span class="bg-orange-600 p-4 rounded-full">01</span>
+                    <p class="bg-zinc-400 px-4 py-12 leading-10 rounded-md">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                        eveniet nulla eaque vero, ut corporis quod quis, molestias
+                        laudantium molestiae corrupti dolores veniam ipsum deserunt
+                        laborum consequuntur quasi est voluptas.
+                    </p>
+
+                    <a href="#"
+                        class="inline-block mt-6 py-4 px-12 text-sm font-medium bg-zinc-900 rounded-md hover:scale-105 hover:bg-orange-500 text-zinc-100 transition-all ">
+                        Read More
+                    </a>
+                </div>
+
+                <div
+                    class="rounded-md col-span-2 group block self-start shrink-0 bg-gray-100 overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1617817546276-80b86dd60151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt=""
+                        class="nset-0 group-hoverscale-110 transition duration-200 border[4rem] border-red-300" />
+                </div>
+            </article>
+        </section>
+
+        <!-- Testimonials -->
+        <div class="bg-white py-6 sm:py-8 lg:py-12">
+            <div class="px-4 md:px-8 mx-auto">
+                <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-8 md:mb-12">What others say about
+                    us</h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x">
+                    <!-- quote - start -->
+                    <div class="flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8">
+                        <div class="text-gray-600 text-center">“This is a section of some simple filler text, also known
+                            as placeholder text.”</div>
+
+                        <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                    loading="lazy" alt="Photo by Radu Florin"
+                                    class="w-full h-full object-cover object-center" />
+                            </div>
+
+                            <div>
+                                <div class="text-zinc-800 text-sm md:text-base font-bold text-center sm:text-left">
+                                    Person 1</div>
+                                <p class="text-gray-500 text-sm md:text-sm text-center sm:text-left">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quote - end -->
+
+                    <!-- quote - start -->
+                    <div class="flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8">
+                        <div class="text-gray-600 text-center">“This is a section of some simple filler text, also known
+                            as placeholder text.”</div>
+
+                        <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                    loading="lazy" alt="Photo by christian ferrer"
+                                    class="w-full h-full object-cover object-center" />
+                            </div>
+
+                            <div>
+                                <div class="text-zinc-800 text-sm md:text-base font-bold text-center sm:text-left">
+                                    Person 2</div>
+                                <p class="text-gray-500 text-sm md:text-sm text-center sm:text-left">CFO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quote - end -->
+
+                    <!-- quote - start -->
+                    <div class="flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8">
+                        <div class="text-gray-600 text-center">“This is a section of some simple filler text, also known
+                            as placeholder text.”</div>
+
+                        <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
+                            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                    loading="lazy" alt="Photo by Ayo Ogunseinde"
+                                    class="w-full h-full object-cover object-center" />
+                            </div>
+
+                            <div>
+                                <div class="text-zinc-800 text-sm md:text-base font-bold text-center sm:text-left">
+                                    Person 3</div>
+                                <p class="text-gray-500 text-sm md:text-sm text-center sm:text-left">CTO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quote - end -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-800 text-white  pt-16">
+        <section class="max-w-fit px-4 mx-auto flex flex-col md:flex-row gap-12">
+
+            <article class="space-y-6 md:w-3/12">
+                <h1 class="text-3xl font-bold"><i class="fa-solid fa-truck-fast text-3xl"></i> QuickShip</h1>
+                <p class="text-zinc-400 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+                    explicabo
+                    maxime recusandae
+                    veritatis, voluptatibus voluptates consectetur asperiores minima</p>
+                <hr>
+                <div class="text-zinc-400 text-xl">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-reddit"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </article>
+
+            <article class="space-y-6 md:w-3/12">
+                <h1 class="text-xl font-bold">Feature</h1>
+                <a href="#" class="block text-zinc-400">Option</a>
+                <a href="#" class="block text-zinc-400">Option</a>
+                <a href="#" class="block text-zinc-400">Option</a>
+                <a href="#" class="block text-zinc-400">Option</a>
+            </article>
+
+            <article class="space-y-6 md:w-3/12">
+                <h1 class="text-xl font-bold">learning</h1>
+                <a href="#" class="block text-zinc-400">Our Plans</a>
+                <a href="#" class="block text-zinc-400">Free Shipping</a>
+                <a href="#" class="block text-zinc-400">Our Plans</a>
+                <a href="#" class="block text-zinc-400">Our Plans</a>
+            </article>
+
+            <article class="space-y-6 md:w-3/12">
+                <h1 class="text-xl font-bold">Support Forum</h1>
+                <p class="text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis amet rem
+                </p>
+                <div>
+                    <input type="text" class="py-2">
+                    <a href="" class="inline-block bg-secondary py-[8px] px-2 -translate-x-1">Get Help</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="bg-zinc-900 mt-6 py-4 md:px-32 flex flex-col md:flex-row justify-between text-zinc-400">
+            <span>Copyright 2022 QuickShip</span>
+
+            <div class="md:space-x-5">
+                <!-- <span>Site Map</span>
+                <span>Privacy Policy</span>
+                <span>Cookie Policy</span> -->
+                <span>Designed & Developed by Varun Bhabhra</span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
